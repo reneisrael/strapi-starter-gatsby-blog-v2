@@ -89,7 +89,7 @@ const Article = ({ data }) => {
                   {article.user.image && <Img fixed={article.user.image.childImageSharp.fixed} imgStyle={{ position: 'static',  borderRadius: '50%' }} />}
                 </div>
                 <div className="uk-width-expand">
-                    <p className="uk-margin-remove-bottom">By { article.user.username }</p>
+                    <p className="uk-margin-remove-bottom">Por { article.user.username }</p>
                     <p className="uk-text-meta uk-margin-remove-top"><Moment format="MMM Do YYYY">{article.published_at}</Moment></p>
                 </div>
             </div>
